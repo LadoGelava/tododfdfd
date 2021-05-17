@@ -1,0 +1,55 @@
+.container{
+    margin: auto;
+    width: 70%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addTaskForm{
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.addTaskInput{
+    background: grey;
+    color: white;
+}
+
+.addTaskBtn{
+    margin-left: 5px;
+}
+
+.taskList{
+   padding: 0;
+   margin: auto;
+}
+
+.taskItem{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.checkbox{
+    margin-left: 50px;
+}
+
+.btn-danger{
+    margin-left: 20px;
+}
+
+.editTaskInput{
+    margin-left: 20px;
+}
+
+.btn-primary{
+    margin-left: 20px;
+}
